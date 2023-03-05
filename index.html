@@ -6,13 +6,43 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Form</title>
         <link rel="stylesheet" href="../Projeto-formulario/css/style.css">
+        <script src="https://kit.fontawesome.com/59b19beec6.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <div class="form">
-            <form action="">
-                <h2 class="title">Login</h2>
-                <label for="Nome">Nome: </label>
+        <main class="form">
+            <form action="#">
+                <div class="title">
+                    <h1>Login</h1>
+                </div>
+
+                <div class="campos">
+                    <div class="input-label">
+                        <label for="#" id="Email">Email:</label><br>
+                        <div class="input">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type="text" id="Email" placeholder="Email">
+                        </div>
+                    </div>
+
+                    <div class="input-label">
+                        <label for="#" id="senha">Senha:</label><br>
+                        <div class="input">
+                            <i class="fa-solid fa-lock"></i>
+                            <input type="text" id="senha" placeholder="Senha">
+                        </div>
+                    </div>
+
+                    <div class="btn input-label">
+                        <button>Entrar</button>
+                    </div>
+
+                    <div class="extra-links input-label">
+                        <p><a href="#">Esqueci a senha</a></p>
+                        <p><a href="#">Cadastre-se</a></p>
+                    </div>
+
+                </div>
             </form>
-        </div>
+        </main>
     </body>
 </html>
